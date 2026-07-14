@@ -1,21 +1,14 @@
-# Golfskor PWA v5
+# Golfskor PWA v5.1 – einföld GitHub upphleðsla
 
-Prófanleg PWA-útgáfa með:
-- 1-4 leikmönnum
-- 9/18 holum
-- sjálfgefnum 4 höggum
-- höggleik og unnum holum
-- valfrjálsri leikforgjöf og nettóskori
-- par, HCP/Stroke Index og lengdum
-- sýnishornsvöllum og sérvöllum
-- uppáhaldsvöllum
-- vistuðum leikmönnum
-- síðustu 5 hringjum
-- sjálfvirkri vistun yfirstandandi hrings
-- offline PWA
+Allar skrár eru í sömu möppu. Hladdu þeim öllum beint í rót GitHub repository-ins. Ekki hlaða ZIP-skránni sjálfri.
 
-## Mikilvægt
-Sýnishornsvellirnir eru tilbúin prófunargögn, ekki staðfest skorkort raunverulegra golfvalla. Myndefnið er innbyggð myndskreyting, ekki ljósmynd af tilteknum velli.
+Skrár:
+- index.html
+- styles.css
+- app.js
+- manifest.webmanifest
+- sw.js
+- icon-192.png
+- icon-512.png
 
-## GitHub Pages
-Hladdu öllum skrám úr þessari möppu í rót repository-ins. Pages source: `main` og `/ (root)`.
+Útgáfan notar nýtt cache-heiti til að losna við eldri PWA-útgáfu.
