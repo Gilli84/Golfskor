@@ -1,12 +1,16 @@
-# Golfskor PWA
+# Golfskor PWA v3
 
-PWA fyrir 1–4 golfara og 18 holur.
+## Uppsetning á GitHub Pages
+1. Afþjappaðu ZIP skránni.
+2. Hladdu **öllum skránum inni í möppunni** beint á rót repository-ins.
+3. GitHub: Settings > Pages > Deploy from a branch > main > /(root).
+4. Bíddu þar til Pages sýnir grænt staðfestingarmerki.
 
-## Reglur um holusigra
-- Einn lægsti leikmaður fær 1 sigur.
-- Tveir jafnir lægstir fá 0,5 hvor.
-- Þrír jafnir lægstir fá 1/3 hver.
-- Ef allir leikmenn eru jafnir fellur holan niður og enginn fær sigur.
+## Mikilvægt við uppfærslu
+Ef eldri útgáfa birtist enn í símanum:
+- opnaðu síðuna í Chrome,
+- veldu Site settings / Stillingar vefsvæðis,
+- veldu Clear & reset / Hreinsa gögn,
+- opnaðu síðuna aftur.
 
-## GitHub Pages
-Hladdu öllum skránum beint á rót repository-ins og birtu `main` / `(root)` undir Settings → Pages.
+Appið geymir síðustu 5 kláruðu hringina í localStorage og yfirstandandi hring sjálfkrafa.
