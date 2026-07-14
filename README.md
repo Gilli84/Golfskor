@@ -1,16 +1,21 @@
-# Golfskor PWA v3
+# Golfskor PWA v5
 
-## Uppsetning á GitHub Pages
-1. Afþjappaðu ZIP skránni.
-2. Hladdu **öllum skránum inni í möppunni** beint á rót repository-ins.
-3. GitHub: Settings > Pages > Deploy from a branch > main > /(root).
-4. Bíddu þar til Pages sýnir grænt staðfestingarmerki.
+Prófanleg PWA-útgáfa með:
+- 1-4 leikmönnum
+- 9/18 holum
+- sjálfgefnum 4 höggum
+- höggleik og unnum holum
+- valfrjálsri leikforgjöf og nettóskori
+- par, HCP/Stroke Index og lengdum
+- sýnishornsvöllum og sérvöllum
+- uppáhaldsvöllum
+- vistuðum leikmönnum
+- síðustu 5 hringjum
+- sjálfvirkri vistun yfirstandandi hrings
+- offline PWA
 
-## Mikilvægt við uppfærslu
-Ef eldri útgáfa birtist enn í símanum:
-- opnaðu síðuna í Chrome,
-- veldu Site settings / Stillingar vefsvæðis,
-- veldu Clear & reset / Hreinsa gögn,
-- opnaðu síðuna aftur.
+## Mikilvægt
+Sýnishornsvellirnir eru tilbúin prófunargögn, ekki staðfest skorkort raunverulegra golfvalla. Myndefnið er innbyggð myndskreyting, ekki ljósmynd af tilteknum velli.
 
-Appið geymir síðustu 5 kláruðu hringina í localStorage og yfirstandandi hring sjálfkrafa.
+## GitHub Pages
+Hladdu öllum skrám úr þessari möppu í rót repository-ins. Pages source: `main` og `/ (root)`.
